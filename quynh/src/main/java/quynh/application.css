@@ -1,0 +1,25 @@
+.user{
+   -fx-font-size: 18;
+}
+
+.userText{
+   -fx-font-size: 18;
+   -fx-border-width: 2;
+   -fx-border: gone;
+   -fx-background-color: #2FA3E4;
+   -fx-text-fill: #FFFFFF;
+   -fx-background-radius: 25 0 25 25;
+   -fx-border-radius: 25 0 25 25;
+   -fx-border-color: #2FA3E4;
+}
+
+.botText{
+   -fx-font-size: 18;
+   -fx-border-width: 2;
+   -fx-border: gone;
+   -fx-background-color: grey;
+   -fx-text-fill: #FFFFFF;
+   -fx-background-radius: 0 25 25 25;
+   -fx-border-radius: 0 25 25 25;
+   -fx-border-color: grey;
+}

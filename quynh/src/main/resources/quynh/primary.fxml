@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #E1C78F;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quynh.PrimaryController">
+   <children>
+      <ScrollPane layoutX="30.0" layoutY="52.0" prefHeight="467.0" prefWidth="346.0" style="-fx-background-color: #FFFFFF;">
+         <content>
+            <VBox fx:id="chatBox" prefHeight="465.0" prefWidth="330.0" style="-fx-background-color: #FFFFFF;" />
+         </content>
+      </ScrollPane>
+      <TextField fx:id="chatField" layoutX="30.0" layoutY="544.0" prefHeight="43.0" prefWidth="293.0" />
+      <Button layoutX="334.0" layoutY="553.0" mnemonicParsing="false" onAction="#send" text="Send" />
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="317.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wifi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="288.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@signal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="345.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@battery.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="43.0" layoutX="177.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@time.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="91.0" layoutX="30.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vinaphone.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
